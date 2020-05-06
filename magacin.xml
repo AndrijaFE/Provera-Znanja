@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<!DOCTYPE Magacin SYSTEM "magacin.dtd">
+<!--<!DOCTYPE Magacin SYSTEM "magacin.dtd">-->
 
-<!--<Magacin xmlns="http://www.w3schools.com"
+<Magacin xmlns="http://www.w3schools.com"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://www.w3schools.com magacin.xsd">-->
-<Magacin>
+         xsi:schemaLocation="http://www.w3schools.com magacin.xsd">
   <Artikal>
     <Naziv sifra="x001">Knjiga</Naziv>
     <DatumIzrade>
@@ -18,8 +17,8 @@
       <Adresa>Vojvode stepe</Adresa>
       <Adresa>Vojvode stepe 1234</Adresa>
     </KompanijaProdavca>
-    <EmailProdavca tip="sluzbeni">nekiemail123@nesto.com</EmailProdavca>
-    <EmailProdavca tip="privatni">nekiemail@nesto.com</EmailProdavca>
+    <EmailProdavca tip="sluzbeni">nekiEmail123@nesto.com</EmailProdavca>
+    <EmailProdavca tip="privatni">Nekiemail@nesto.com</EmailProdavca>
   </Artikal>
 
   <Artikal>
