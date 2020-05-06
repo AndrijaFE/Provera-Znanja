@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE Magacin SYSTEM "magacin.dtd">
 
-<Magacin xmlns="http://www.w3schools.com"
+<!--<Magacin xmlns="http://www.w3schools.com"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://www.w3schools.com magacin.xsd">
+         xsi:schemaLocation="http://www.w3schools.com magacin.xsd">-->
+<Magacin>
   <Artikal>
-    <Naziv sifra="">Knjiga</Naziv>
+    <Naziv sifra="x001">Knjiga</Naziv>
     <DatumIzrade>
       <Dan>5</Dan>
       <Mesec>8</Mesec>
       <Godina>2020</Godina>
     </DatumIzrade>
-    <Cena tip="dinari">800</cena>
+    <Cena tip="dinari">800</Cena>
     <KompanijaProdavca>
       <ImeKompanija>Laguna</ImeKompanija>
       <Adresa>Vojvode stepe</Adresa>
@@ -22,13 +23,13 @@
   </Artikal>
 
   <Artikal>
-    <Naziv sifra="">Sok</Naziv>
+    <Naziv sifra="x005">Sok</Naziv>
     <DatumIzrade>
       <Dan>9</Dan>
       <Mesec>10</Mesec>
       <Godina>2018</Godina>
     </DatumIzrade>
-    <Cena tip="euro">5</cena>
+    <Cena tip="euro">5</Cena>
     <KompanijaProdavca>
       <ImeKompanija>Koka kola</ImeKompanija>
       <Adresa>KokaKola 1234</Adresa>
