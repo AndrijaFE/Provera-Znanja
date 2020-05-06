@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Magacin SYSTEM "magacin.dtd">
+
+<Magacin xmlns="http://www.w3schools.com"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.w3schools.com magacin.xsd">
+  <Artikal>
+    <Naziv sifra="">Knjiga</Naziv>
+    <DatumIzrade>
+      <Dan>5</Dan>
+      <Mesec>8</Mesec>
+      <Godina>2020</Godina>
+    </DatumIzrade>
+    <Cena tip="dinari">800</cena>
+    <KompanijaProdavca>
+      <ImeKompanija>Laguna</ImeKompanija>
+      <Adresa>Vojvode stepe</Adresa>
+      <Adresa>Vojvode stepe 1234</Adresa>
+    </KompanijaProdavca>
+    <EmailProdavca tip="sluzbeni">nekiemail123@nesto.com</EmailProdavca>
+    <EmailProdavca tip="privatni">nekiemail@nesto.com</EmailProdavca>
+  </Artikal>
+
+  <Artikal>
+    <Naziv sifra="">Sok</Naziv>
+    <DatumIzrade>
+      <Dan>9</Dan>
+      <Mesec>10</Mesec>
+      <Godina>2018</Godina>
+    </DatumIzrade>
+    <Cena tip="euro">5</cena>
+    <KompanijaProdavca>
+      <ImeKompanija>Koka kola</ImeKompanija>
+      <Adresa>KokaKola 1234</Adresa>
+      <Adresa>KokaKola</Adresa>
+    </KompanijaProdavca>
+    <EmailProdavca tip="privatni">kokakola@nesto.com</EmailProdavca>
+    <EmailProdavca tip="sluzbeni">kokakola1234@nesto.com</EmailProdavca>
+  </Artikal>
+
+</Magacin>
